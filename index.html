@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box_1">
+            <div class="navbar">
+                <h2>TK</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                        <li><a href="#Portofolio">Portofolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="box_2" id="home">
+
+            <div class="flex" data-aos="fade-right">
+                <div class="home">
+
+                    <h3 data-aos="fade-down">Hello, I'm 👋</h3>
+
+                    <h1 data-aos="fade-down">Tanish Kumar</h1>
+
+                    <h2 data-aos="fade-down">
+                        Final Year B.Tech (CSE) Student
+                    </h2>
+
+                    <h3>
+                        <span class="typing"></span>
+                    </h3>
+
+                    <p data-aos="fade-right">
+
+                        I build responsive and user-friendly web applications using
+                        HTML, CSS, JavaScript, Node.js, Express.js and MongoDB.
+
+                        Currently seeking Frontend Developer Internship and
+                        Full-Time opportunities where I can contribute, learn
+                        and grow as a Software Developer.
+
+                    </p>
+                </div>
+                <div class="img">
+                    <img src="images/Animation1.png">
+                </div>
+            </div>
+
+            <div class="button" data-aos="fade-down">
+                <div class="btn_1" data-aos="fade-left">
+                    <button><a href="resume.pdf" download>Download Resume</a></button>
+                </div>
+
+                <div class="btn_2" data-aos="fade-right">
+                    <button><a href="#Portofolio">View Project <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a></button>
+                </div>
+            </div>
+
+            <div class="social_media" data-aos="fade-right">
+
+                <a href="https://github.com/professionalduobykt-2523?tab=repositories" id="font-awesome">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#" id="font-awesome">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="#" id="font-awesome">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#contact" id="font-awesome">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="box_3" id="about">
+
+            <h3 data-aos="zoom-in">About Me</h3>
+            <p data-aos="fade-up">
+                Get to know me better.
+            </p>
+
+
+            <div class="about-content">
+
+                <div class="content">
+
+                    <p data-aos="fade-left">
+
+                        I'm <strong>Tanish Kumar</strong>, a Final Year
+                        B.Tech Computer Science Engineering student with a
+                        strong interest in Full Stack Web Development.
+
+                        I enjoy building responsive, user-friendly and scalable
+                        web applications that solve real-world problems.
+
+                    </p>
+
+                    <p data-aos="fade-right">
+
+                        I have experience working with HTML, CSS,
+                        JavaScript, Node.js, Express.js and MongoDB.
+
+                        I continuously improve my skills by creating projects,
+                        exploring modern technologies and practicing problem
+                        solving.
+
+                    </p>
+
+                    <p data-aos="fade-left">
+                        Currently I am looking for frontend Developer Internship
+                        and Full-Time opportunities where I can apply my
+                        technical knowledge while learning from experienced
+                        professionals.
+                    </p>
+                </div>
+                <div class="about-image" data-aos="fade-right"></div>
+            </div>
+        </div>
+
+        <div class="box_4" id="achievements" data-aos="fade-down">
+            <div class="section-title" data-aos="fade-left">
+                <h2>Achievements</h2>
+                <p>Some milestones in my learning journey.</p>
+            </div>
+
+            <div class="achievement-container">
+
+                <div class="achievement-card" data-aos="fade-left">
+                    <i class="fa-solid fa-code"></i>
+                    <h3 data-aos="fade-up">10+</h3>
+                    <p data-aos="fade-up">Projects Completed</p>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-left">
+                    <i class="fa-solid fa-laptop-code" data-aos="fade-down"></i>
+                    <h3 data-aos="fade-right">300+</h3>
+                    <p data-aos="fade-up">DSA Problems Solved</p>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-left">
+                    <i class="fa-solid fa-layer-group" data-aos="fade-down"></i>
+                    <h3 data-aos="fade-right">8+</h3>
+                    <p data-aos="fade-up">Technologies Learned</p>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-left">
+                    <i class="fa-solid fa-book-open" data-aos="fade-down"></i>
+                    <h3 data-aos="fade-right">3+</h3>
+                    <p data-aos="fade-up">Major Full Stack Projects</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="box_5" id="Portofolio" data-aos="fade-down">
+            <div class="portofolio">
+                <div class="project">
+                    <button class="tab-btn active" data-target="projects">
+                        <h4>Projects</h4>
+                    </button>
+                </div>
+
+                <div class="certificate">
+                    <button class="tab-btn" data-target="certificates">
+                        <h4>Certificate</h4>
+                    </button>
+                </div>
+
+                <div class="technical_skill">
+                    <button class="tab-btn" data-target="technical-skills">
+                        <h4>Technical Skill</h4>
+                    </button>
+                </div>
+            </div>
+
+            <div class="projects">
+                <div class="projects-container">
+
+                    <!-- Project 1 -->
+
+                    <div class="project-card" data-aos="fade-left">
+
+                        <img src="images/project1.jpg" alt="Project">
+
+                        <div class="project-content">
+
+                            <h3>Notes Management System</h3>
+
+                            <p>
+
+                                Developed a full-stack Notes Management System using MongoDB, Express.js, Node.js, HTML,
+                                CSS, and JavaScript. Implemented CRUD operations (Create, Read, Update, Delete),
+                                enabling users to efficiently manage notes with a responsive and user-friendly
+                                interface. Integrated MongoDB for secure data storage and Express.js APIs for backend
+                                functionality.
+
+                            </p>
+
+                            <div class="tech">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                                <span>MongoDB</span>
+
+                            </div>
+
+                            <div class="project-btn">
+
+                                <a href="https://notes-management-system-iefo.onrender.com/ ">Live Demo</a>
+
+                                <a href="https://github.com/professionalduobykt-2523/Notes_Management_System">GitHub</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Project 2 -->
+
+                    <div class="project-card" data-aos="fade-down">
+
+                        <img src="images/project2.jpg" alt="Project">
+
+                        <div class="project-content">
+
+                            <h3>Hospital Management System</h3>
+
+                            <p>
+
+                                Developed a full-stack Hospital Management System using HTML, CSS, JavaScript, Node.js,
+                                Express.js, and MongoDB. The application allows users to add and store patient details
+                                securely in a MongoDB database through a responsive interface. Designed a clean and
+                                user-friendly UI with efficient form validation to ensure accurate patient data entry.
+
+
+                            </p>
+
+                            <div class="tech">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                                <span>MongoDB</span>
+                            </div>
+
+                            <div class="project-btn">
+
+                                <a href="https://hospital-management-system-wlf9.onrender.com">Live Demo</a>
+
+                                <a
+                                    href="https://github.com/professionalduobykt-2523/Hospital_Management_System">GitHub</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Project 3 -->
+
+                    <div class="project-card" data-aos="fade-right">
+
+                        <img src="images/project3.jpg" alt="Project">
+
+                        <div class="project-content">
+
+                            <h3>Wheather App</h3>
+
+                            <p>
+
+                                Developed a responsive Weather App using HTML, CSS, and JavaScript with API integration
+                                to provide real-time weather information. The application allows users to search for any
+                                city or country and instantly view current weather details, including temperature,
+                                humidity, wind speed, and weather conditions. It features a clean, user-friendly
+                                interface, responsive design for different screen sizes, and dynamic data fetching using
+                                JavaScript.
+
+                            </p>
+
+                            <div class="tech">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="project-btn">
+
+                                <a href="https://tanishkumar-1520.github.io/DAY_6/">Live Demo</a>
+
+                                <a href="https://github.com/professionalduobykt-2523/Weather-App-">GitHub</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card" data-aos="fade-left">
+
+                        <img src="images/project4.jpg" alt="Project">
+
+                        <div class="project-content">
+
+                            <h3>E-Commerce Website</h3>
+
+                            <p>
+
+                                Developed a responsive E-commerce website using HTML, CSS, and JavaScript with a clean
+                                and user-friendly interface. Implemented product listing, product details, shopping cart
+                                functionality, category-based navigation, and interactive UI components to improve the
+                                user experience. Focused on responsive design, smooth navigation, and optimized
+                                front-end performance across different devices.
+
+                            </p>
+
+                            <div class="tech">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="project-btn">
+
+                                <a href="https://ecommerce-website-t4w6.onrender.com">Live Demo</a>
+
+                                <a href="https://github.com/professionalduobykt-2523/Ecommerce_Website">GitHub</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+
+                    <div class="project-card" data-aos="fade-down">
+
+                        <img src="images/project5.jpg" alt="Project">
+
+                        <div class="project-content">
+
+                            <h3>Library Management System</h3>
+
+                            <p>
+
+                                Library Management System: Designed and developed a responsive Library Management System
+                                using HTML, CSS, and JavaScript. The application enables users to manage book records by
+                                adding, searching, updating, and deleting data. Built with a clean and interactive UI,
+                                responsive layouts, form validation, and JavaScript-based DOM manipulation to seamless.
+
+                            </p>
+
+                            <div class="tech">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="project-btn">
+
+                                <a href="https://liberary-management-system-j3nb.onrender.com/">Live Demo</a>
+
+                                <a
+                                    href="https://github.com/professionalduobykt-2523/Liberary-Management-System/tree/main">GitHub</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+
+                    <div class="project-card" data-aos="fade-right">
+
+                        <img src="images/project6.jpg" alt="Project">
+
+                        <div class="project-content">
+
+                            <h3>Hotel Management System</h3>
+
+                            <p>
+
+                                Hotel Management System: Developed a responsive Hotel Management System using HTML, CSS,
+                                and JavaScript. The application allows users to browse available rooms, manage bookings,
+                                view hotel details, and provides an interactive, user-friendly interface with a fully
+                                responsive design. The project demonstrates front-end development skills, responsive web
+                                design.
+
+                            </p>
+
+                            <div class="tech">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="project-btn">
+
+                                <a href="https://hotel-management-system-6wto.onrender.com/">Live Demo</a>
+
+                                <a href="https://github.com/professionalduobykt-2523/Hotel-Management-System">GitHub</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 7 -->
+
+                    <div class="project-card" data-aos="fade-left">
+
+                        <img src="images/project7.jpg" alt="Project">
+
+                        <div class="project-content">
+
+                            <h3>Daily-Notes-Tracker</h3>
+
+                            <p>
+
+                                Developed a Daily Notes Tracker web application using HTML, CSS, JavaScript, Node.js,
+                                and Express.js. Implemented complete CRUD (Create, Read, Update, Delete) functionality,
+                                enabling users to add, view, edit, and delete daily notes seamlessly. Instead of using a
+                                database, the application stores all note data in a local JSON file, demonstrating
+                                file-based data management with the Node.js File System (fs) module. Designed a
+                                responsive and user-friendly interface to ensure a smooth experience across different
+                                devices while efficiently handling note management.
+
+                            </p>
+
+                            <div class="tech">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                            </div>
+
+                            <div class="project-btn">
+
+                                <a href="https://daily-notes-tracker.onrender.com/">Live Demo</a>
+
+                                <a href="https://github.com/professionalduobykt-2523/Daily-Notes-Tracker">GitHub</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 8 -->
+
+
+                    <div class="project-card" data-aos="fade-down">
+
+                        <img src="images/project8.jpg" alt="Project">
+
+                        <div class="project-content">
+
+                            <h3>Hospital Dashboard</h3>
+
+                            <p>
+
+                                Hospital Dashboard – Built a responsive Hospital Dashboard using HTML, CSS, JavaScript,
+                                Node.js, and Express.js. Implemented complete CRUD (Create, Read, Update, Delete)
+                                operations for managing patient records, with data stored in a JSON file instead of a
+                                database like MongoDB. Developed RESTful APIs using Express.js to handle data
+                                efficiently and created a clean, user-friendly interface for adding, viewing, updating,
+                                and deleting patient information. Focused on responsive design, organized code
+                                structure, and seamless front-end and back-end integration.
+
+                            </p>
+
+                            <div class="tech">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                            </div>
+
+                            <div class="project-btn">
+
+                                <a href="https://hospital-dashboard-ks4u.onrender.com/">Live Demo</a>
+
+                                <a href="https://github.com/professionalduobykt-2523/Hospital-Dashboard-">GitHub</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 9 -->
+
+
+                    <div class="project-card" data-aos="fade-right">
+
+                        <img src="images/project9.jpg" alt="Project">
+
+                        <div class="project-content">
+
+                            <h3>Meesho Clone</h3>
+
+                            <p>
+
+                                Designed and developed a fully responsive Meesho website clone using HTML5 and CSS3.
+                                Recreated the homepage with a clean and modern user interface, including a responsive
+                                navigation bar, hero banner, product categories, promotional sections, and footer.
+                                Implemented Flexbox, CSS Grid, and Media Queries to ensure seamless responsiveness
+                                across mobile, tablet, and desktop devices. Focused on creating a visually appealing
+                                layout, improving user experience, and following modern front-end development practices
+                                with well-structured and reusable code Utilized Flexbox, CSS Grid, and Media Queries for
+                                mobile, tablet, laptop, and desktop devices.
+
+                            </p>
+
+                            <div class="tech">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+
+                            </div>
+
+                            <div class="project-btn">
+
+                                <a href="https://messho-website.onrender.com">Live Demo</a>
+
+                                <a href="https://github.com/professionalduobykt-2523/Messho-Website">GitHub</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certificates">
+                <div class="certificate-container">
+
+                    <!-- Certificate 1 -->
+                    <div class="hover">
+                        <i class="fa-solid fa-expand" id="fonts"></i>
+                        <p id="block">View Certificate</p>
+                        <img src="Certificate/HTML.jpg" alt="Project" class="certificate-card" data-aos="fade-down">
+                    </div>
+
+                    <!-- Popup -->
+                    <div id="imagePopup" class="popup">
+                        <span class="close">&times;</span>
+                        <img id="popupImg" src="" alt="">
+                    </div>
+
+
+                    <!-- Certificate 2 -->
+
+                    <div class="hover">
+                        <i class="fa-solid fa-expand" id="fonts"></i>
+                        <p id="block">View Certificate</p>
+                        <img src="Certificate/CSS.jpg" alt="Project" class="certificate-card" data-aos="fade-down">
+                    </div>
+
+                    <!-- Popup -->
+                    <div id="imagePopup" class="popup">
+                        <span class="close">&times;</span>
+                        <img id="popupImg" src="" alt="">
+                    </div>
+
+
+                    <!-- Certificate 3 -->
+
+                    <div class="hover">
+                        <i class="fa-solid fa-expand" id="fonts"></i>
+                        <p id="block">View Certificate</p>
+                        <img src="Certificate/JAVASCRIPT.jpg" alt="Project" class="certificate-card"
+                            data-aos="fade-down">
+                    </div>
+
+                    <!-- Popup -->
+                    <div id="imagePopup" class="popup">
+                        <span class="close">&times;</span>
+                        <img id="popupImg" src="" alt="">
+                    </div>
+
+
+                    <!-- Certificate 4 -->
+
+                    <div class="hover">
+                        <i class="fa-solid fa-expand" id="fonts"></i>
+                        <p id="block">View Certificate</p>
+                        <img src="Certificate/Python.jpg" alt="Project" class="certificate-card" data-aos="fade-down">
+                    </div>
+
+                    <!-- Popup -->
+                    <div id="imagePopup" class="popup">
+                        <span class="close">&times;</span>
+                        <img id="popupImg" src="" alt="">
+                    </div>
+
+
+                    <!-- Certificate 5 -->
+
+                    <div class="hover">
+                        <i class="fa-solid fa-expand" id="fonts"></i>
+                        <p id="block">View Certificate</p>
+                        <img src="Certificate/Frontend Development.jpg" alt="Project" class="certificate-card"
+                            data-aos="fade-down">
+                    </div>
+
+                    <!-- Popup -->
+                    <div id="imagePopup" class="popup">
+                        <span class="close">&times;</span>
+                        <img id="popupImg" src="" alt="">
+                    </div>
+
+
+                    <!-- Certificate 6 -->
+
+                    <div class="hover">
+                        <i class="fa-solid fa-expand" id="fonts"></i>
+                        <p id="block">View Certificate</p>
+                        <img src="Certificate/Job Simulation.jpg" alt="Project" class="certificate-card"
+                            data-aos="fade-down">
+                    </div>
+
+                    <!-- Popup -->
+                    <div id="imagePopup" class="popup">
+                        <span class="close">&times;</span>
+                        <img id="popupImg" src="" alt="">
+                    </div>
+
+
+                    <!-- Certificate 7 -->
+
+                    <div class="hover">
+                        <i class="fa-solid fa-expand" id="fonts"></i>
+                        <p id="block">View Certificate</p>
+                        <img src="Certificate/Software development.jpg" alt="Project" class="certificate-card"
+                            data-aos="fade-down">
+                    </div>
+
+                    <!-- Popup -->
+                    <div id="imagePopup" class="popup">
+                        <span class="close">&times;</span>
+                        <img id="popupImg" src="" alt="">
+                    </div>
+
+
+                    <!-- Certificate 8 -->
+
+                    <div class="hover">
+                        <i class="fa-solid fa-expand" id="fonts"></i>
+                        <p id="block">View Certificate</p>
+                        <img src="Certificate/frontend job.jpg" alt="Project" class="certificate-card"
+                            data-aos="fade-down">
+                    </div>
+
+                    <!-- Popup -->
+                    <div id="imagePopup" class="popup">
+                        <span class="close">&times;</span>
+                        <img id="popupImg" src="" alt="">
+                    </div>
+
+
+                    <!-- Certificate 9 -->
+
+                    <div class="hover">
+                        <i class="fa-solid fa-expand" id="fonts"></i>
+                        <p id="block">View Certificate</p>
+                        <img src="Certificate/Java.jpg" alt="Project" class="certificate-card" data-aos="fade-down">
+                    </div>
+
+                    <!-- Popup -->
+                    <div id="imagePopup" class="popup">
+                        <span class="close">&times;</span>
+                        <img id="popupImg" src="" alt="">
+                    </div>
+
+
+                    <!-- Certificate 10 -->
+
+                    <div class="hover">
+                        <i class="fa-solid fa-expand" id="fonts"></i>
+                        <p id="block">View Certificate</p>
+                        <img src="Certificate/Data Science.jpg" alt="Project" class="certificate-card"
+                            data-aos="fade-down">
+                    </div>
+
+                    <!-- Popup -->
+                    <div id="imagePopup" class="popup">
+                        <span class="close">&times;</span>
+                        <img id="popupImg" src="" alt="">
+                    </div>
+
+
+                    <!-- Certificate 11 -->
+
+                    <img src="Certificate/Goverment.jpg" alt="Project" class="certificate-card" data-aos="fade-down">
+
+                    <!-- Popup -->
+                    <div id="imagePopup" class="popup">
+                        <span class="close">&times;</span>
+                        <img id="popupImg" src="" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="skills">
+
+                <div class="skills-container">
+
+                    <div class="skill-card" data-aos="fade-right">
+                        <i class="fa-brands fa-html5" style="color: rgb(247, 20, 4);"></i>
+                        <h3>HTML</h3>
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-right">
+                        <i class="fa-brands fa-css3-alt" style="color: rgb(2, 143, 250);"></i>
+                        <h3>CSS</h3>
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-right">
+                        <i class="fa-brands fa-square-js" style="color: rgb(255, 212, 59);"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-right">
+                        <i class="fa-brands fa-node-js" style="color: rgb(42, 102, 46);"></i>
+                        <h3>Node.js</h3>
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-right">
+                        <i class="fa-solid fa-server" style="color: rgb(255, 212, 59);"></i>
+                        <h3>Express.js</h3>
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-right">
+                        <i class="fa-solid fa-database"></i>
+                        <h3>MongoDB</h3>
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-right">
+                        <i class="fa-brands fa-github" style="color: rgb(10, 10, 11);"></i>
+                        <h3>GitHub</h3>
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-right">
+                        <i class="fa-brands fa-java" style="color: rgb(188, 37, 37);"></i>
+                        <h3>Java</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <div class="section-title" data-aos="fade-down">
+                <h2>Contact Me</h2>
+                <p>Let's connect and build something amazing together.</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+
+                    <h3 data-aos="fade-right">Get In Touch</h3>
+
+                    <p data-aos="fade-right">
+                        I'm currently looking for Internship and Full-Time
+                        opportunities. Feel free to contact me.
+                    </p>
+
+                    <div class="info-box" data-aos="fade-down">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <div>
+                            <h4>Email</h4>
+                            <span>tk7835812188@gmail.com</span>
+                        </div>
+
+                    </div>
+
+                    <div class="info-box" data-aos="fade-down">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <div>
+                            <h4>Phone</h4>
+                            <span>+91 8929127319</span>
+                        </div>
+
+                    </div>
+
+                    <div class="info-box" data-aos="fade-down">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <div>
+                            <h4>Location</h4>
+                            <span>Delhi, India</span>
+                        </div>
+
+                    </div>
+
+                    <div class="contact-social" data-aos="fade-down">
+
+                        <a href="https://github.com/professionalduobykt-2523?tab=repositories"><i
+                                class="fa-brands fa-github"></i></a>
+
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                    </div>
+
+                </div>
+
+                <form class="contact-form">
+
+                    <input type="text" placeholder="Your Name" data-aos="fade-down">
+
+                    <input type="email" placeholder="Your Email" data-aos="fade-down">
+
+                    <input type="text" placeholder="Subject" data-aos="fade-down">
+
+                    <textarea rows="6" placeholder="Your Message" data-aos="fade-down"></textarea>
+
+                    <button type="submit" data-aos="fade-down">
+                        Send Message
+                    </button>
+
+                </form>
+            </div>
+        </div>
+
+
+        <footer>
+            <p class="copyright">
+
+                © 2026 T.K Kumar. All Rights Reserved.
+
+            </p>
+
+        </footer>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
