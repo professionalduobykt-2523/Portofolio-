@@ -1843,6 +1843,7 @@ footer {
     .content p {
         width: 100%;
         height: auto;
+        margin: 0 0 20px;
         min-height: 0;
         font-size: 15px;
         line-height: 1.8;
@@ -2201,11 +2202,6 @@ footer {
 
     .box_3>p {
         font-size: 13px;
-    }
-
-    .about-image {
-        width: 210px;
-        height: 210px;
     }
 
     .content p {
