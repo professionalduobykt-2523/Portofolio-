@@ -17,6 +17,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const popup = document.getElementById("imagePopup");
     const popupImg = document.getElementById("popupImg");
     const closeBtn = document.querySelector(".close");
+
+    // Popup ko <body> me move karo, taaki parent ke transform/AOS/overflow
+    // fixed position ko na tode aur overlay poori screen cover kare
+    if (popup && popup.parentElement !== document.body) {
+        document.body.appendChild(popup);
+    }
     const certificateImages =
         document.querySelectorAll(".certificate-card");
 
